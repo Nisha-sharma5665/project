@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>html elements</title>
+    </header>
+    <body>
+        <center>
+            <h1 style="color: red">Html Elements</h1>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <!---em tag used for elements-->
+            <!---strong tag is used for bold the test n strong it-->
+         <p><strong>Html Documents</strong> CSS documents</p>
+         <p><em>italic text</em> non-italic text</p>
+         <form>
+            <input pattern="\d*" title="numbers only,please">
+            <input type="submit"/>
+            <input type="color"name="favcolor"value="#ff0000">
+            <input type="week"/><br>
+            <input type="datetime-local"/>
+         </form>
+         <form id="form1" name="form1" oninput="out1.value = parseInt(in1.value, 10) + parseInt(in2.value,10)">
+            <fieldset>
+                <legend>output example</legend>
+                <input type="number"id="in1"name="in1"value="0"><br>
+                +
+                <input type="number"id="in2"name="in2"value="0"><br>
+            </fieldset>
+             <output name="out1"for="in1 in2"form="form1">0</output>
+         </form>
+         <audio controls>
+            <source src="https://filesamples.com/samples/audio/mp3/sample4.mp3"type="audio/mpeg">
+         </audio>
+         <video width="500"height="700"controls>
+            <source src="https://www.youtube.com/watch?v=dyi-Qh_HeTI"type="video/mp4">
+         </video><br><br>
+         <progress max="100"value="40"></progress>
+        </center>
+    </body>
+</html>
